@@ -5,7 +5,9 @@ You can find a guide on how to do this [here](https://www.thethingsindustries.co
 
 To expose the service from your localhost to the internet, you can use [ngrok](https://ngrok.com/):
 
-`$ ngrok http 3000`
+```bash
+ngrok http 3000
+```
 
 Keep in mind that the requests sent from the TTN are `POST`.
 
