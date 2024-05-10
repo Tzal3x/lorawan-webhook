@@ -3,7 +3,9 @@
 The purpose of this webhook is to be integrated with a "The Things Network" console application.
 You can find a guide on how to do this [here](https://www.thethingsindustries.com/docs/integrations/webhooks/).
 
-To expose the service from your localhost to the internet, you can use [ngrok](https://ngrok.com/).
+To expose the service from your localhost to the internet, you can use [ngrok](https://ngrok.com/):
+
+`$ ngrok http 3000`
 
 Keep in mind that the requests sent from the TTN are `POST`.
 
